@@ -1,0 +1,243 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(176, 236, 240);
+}
+.main{
+
+}
+.wall{
+    
+}
+.wall-image{
+    clear: both;
+    
+}
+.wall-image img{
+    width: 100%;
+   
+}
+
+.nav {
+    text-align: left;
+    position: absolute ;
+    top: 20px;
+    margin-left:100px ;
+
+}
+
+.nav a{
+    margin-left:33px ;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 40px;
+}
+.logo{
+    position: absolute ;
+    top: 10px;
+    left: 10px;
+}
+.profile{
+    height: 120px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    float: right;
+    background-image: url("frd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 40px 10px rgb(255, 255, 24);
+   
+}
+.text-line{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    text-decoration: none;
+    
+}
+.quote{
+    margin-bottom: 10px;
+}
+
+.fix{
+    display: inline;
+    
+}
+/* .animation{
+    display: inline;
+    position: absolute;
+    top: 95px;
+    left: 70px;
+    height: 70px;
+    overflow: hidden;
+    
+}
+.animation li{
+    text-decoration: none;
+    color: cyan;
+    font-size: 40px;
+    line-height: 70px;
+    animation: move 6s steps(6) infinite;
+
+    
+}
+@keyframes move{
+    100%{
+        top: -360px;
+    }
+}
+.animation li span::after{
+    content: " ";
+    position: absolute;
+    left: opx;
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 0, 170);
+    border-left: 2px solid cyan;
+    animation: type 1.5s steps(10) infinite;
+    
+}
+@keyframes type{
+    100%{
+        left:100%;
+        margin: 0 -350px 0 350px;
+
+    }
+} */
+.fix1{
+    margin-top: 10px;
+}
+.wicon{
+    height: 660px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+
+}
+#wi1{
+    height: 200px;
+    position: relative;
+    top: 200px;
+    float: right;
+    z-index: 5;
+    opacity: 40% ;
+    clear: both;
+}
+#wi2{
+    height: 200px;
+    position: relative;
+    top: 400px;
+    float: left;
+    clear: left;
+    z-index: 4;
+    opacity: 30%;
+}
+#wi3{
+    height: 200px;
+    position: relative;
+    top: 500px;
+    left: 50px;
+    
+    clear:left;
+    z-index: 3;
+}
+#wi4{
+    height: 150px;
+    position: relative;
+    top: 525px;
+    right: -240px;
+    
+    float: right;
+    z-index: 2 ;
+    
+}
+#wi5{
+    height: 230px;
+    position: relative;
+    top: -130px;
+    left: 350px;
+    z-index: 1;
+    clear: left;
+    float: left;
+    opacity: 30%;
+    
+}
+#wi6{
+    height: 150px;
+    position: relative;
+    top: 347px;
+   right: 300px;
+    z-index: 6;
+    display: inline;
+    float: right;
+
+}
+.cont{
+
+}
+.course{
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: cyan; */
+}
+.course span{
+    border: 2px solid white;
+    background-color: deeppink;
+    color: white;
+    font-size: 25px;
+    font-family: serif;
+    border-radius: 20%;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding: 1px 10px 1px 10px;
+
+}
+.cicon{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+.cicon fieldset{
+    width: 60px;
+    height: 80px;
+    text-align: center;
+    border-style: none;
+    float: left;
+    margin-left: 120px;
+    color: darkorange;
+    padding: 5px;
+}
+.cicon fieldset img{
+    height: 40px;
+   
+}
+.cicon figure{
+   
+    border-radius:50%;
+    padding: 10px;
+}
+.cicon fieldset:hover{
+    background-color: rgb(20, 255, 196);
+    border-radius: 10px;
+    
+    color: rgb(3, 50, 84);
+    box-shadow: 5px 5px 5px 0px yellow;
+    border: 2px solid white;
+
+}
+#dm{
+    height: 95px;
+}
